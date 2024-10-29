@@ -10,7 +10,7 @@ on:
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'Flyme'
+        default: 'Generic'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
