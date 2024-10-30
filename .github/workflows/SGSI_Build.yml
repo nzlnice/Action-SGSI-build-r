@@ -6,23 +6,23 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://firmware-res.flyme.com/Firmware/Flyme/mblu10/9.0.4.1/cn/20220610144242/7c606a0c/update.zip?auth_key=1730236558-0-0-b7328848b4839f68ea55106f810da3e9'
+        default: 'https://59-47-237-141.pd1.cjjd19.com:30443/download-cdn.cjjd19.com/123-326/a00ab43a/1819348726-0/a00ab43a60bfe875c1969fa6c655c546/c-m57?v=5&t=1730346108&s=1730346108a40ce986b345a9b317b2162d8cf6a3a2&r=T6KPFM&bzc=2&bzs=313831323432393732373a34333435343935393a323234383539303637363a31383132343239373237&filename=Axon.zip&x-mf-biz-cid=3ed37d5e-6f47-4940-8c3d-96486cb1fafb-c4937c&auto_redirect=0&cache_type=1&xmfcid=781a3adf-fbf0-4858-852d-16add80b9fa4-1-50111d3b1f810da3e9'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'Generic'
+        default: 'Axon.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
-        default: 'Flyme'
+        default: 'Generic'
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
-        default: 'A'
+        default: 'BOTH'
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
-        default: 'GSI.zip'
+        default: 'SGSI.zip'
 
 
 
